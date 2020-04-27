@@ -1,7 +1,8 @@
-numpy==1.17.4
+numpy==1.18.1
 scipy==1.2.1
 joblib==0.13.2
 Cython==0.29.13
+Python==3.7.6
 pandas==0.25.3
 scikit-learn==0.21.3
 tensorflow==2.1.0
