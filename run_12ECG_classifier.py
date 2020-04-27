@@ -25,7 +25,7 @@ def run_12ECG_classifier(data,header_data,classes,model):
 
 def load_12ECG_model():
     # load the model from disk 
-    filename='baseline.h5'
+    filename='baseline8192.h5'
     loaded_model = tensorflow.keras.models.load_model(filename, compile = False)
     loaded_model.compile(optimizer = 'adam', loss = 'binary_crossentropy')
     
