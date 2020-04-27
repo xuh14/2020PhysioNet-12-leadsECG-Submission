@@ -237,7 +237,7 @@ def get_12ECG_features(data, header_data):
     kurt_RR = stats.kurtosis(idx/sample_Fs*1000)
     kurt_Peaks = stats.kurtosis(peaks*gain_lead[0])
 
-    data = pading_12leads(data, 8192*4)
+    data = pading_12leads(data, 8192)
 
     age = age_encode(age)
 
